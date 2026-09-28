@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifólio</title>
+</head>
+
+<body style="background-color: rgb(111, 111, 248);">
+    <section>
+        <h1>João Victor - Desenvolvedor Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <img style="height: 150px; width: 150px;" src="./assets/eu.jpg" alt="João Victor">
+        <p>Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI</p>
+        <p>Tenho conhecimento de <em>HTML, CSS</em> e estou aprendendo <em>JavaScript</em></p>
+        <h2>Minhas Habilidades</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+    </section>
+    <hr>
+    <br>
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Projeto</th>
+                    <th>Tecnologia</th>
+                    <th>Status</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pokedex</td>
+                    <td>HTML, CSS e JS</td>
+                    <td>Concluído</td>
+                    <td><a href="https://github.com/I-joao-victor-I/projeto-pokedex" target="_blank">Link do projeto</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Carrossel Kimetsu No Yaiba</td>
+                    <td>HTML, CSS e JS</td>
+                    <td>Concluído</td>
+                    <td><a href="https://github.com/I-joao-victor-I/projeto-kimetsu">Link do projeto</a></td>
+                </tr>
+                <tr>
+                    <td>Ostium Korus</td>
+                    <td>HTML, CSS e JS</td>
+                    <td>Concluído</td>
+                    <td><a href="https://github.com/I-joao-victor-I/tcs-senai">Link do projeto</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+    <br><br>
+    <section>
+        <form id="contato" action="">
+            <fieldset>
+                <legend>Contato:</legend>
+                <label for="nome">Nome Completo</label><br>
+                <input type="text" id="nome" name="nome" required> <br><br>
+
+                <label for="email">E-mail</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option value="">Selecione um assunto</option>
+                    <option value="oportunidade">Oportunidade de emprego</option>
+                    <option value="contato">Contato</option>
+                    <option value="requisicao">Requisição de projeto</option>
+                </select><br><br>
+
+                <label for="comentarios">Mensagem:</label><br>
+                <textarea name="comentarios" id="comentarios" rows="4" cols="50"></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <p>©2026 Meta. Desenvolvido durante o curso do SENAI.</p><br>
+        <a href="mailto:jvoliveirapereira@gmail.com">jvoliveirapereira@gmail.com</a>
+        <label for="|"></label>
+        <a href="mailto:+55 11 97876-5303">+55 11 97876-5303</a>
+    </footer>
+</body>
+
+</html>
